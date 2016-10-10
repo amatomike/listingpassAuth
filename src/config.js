@@ -17,21 +17,21 @@ module.exports = Object.assign({
   apiHost: process.env.APIHOST || 'localhost',
   apiPort: process.env.APIPORT,
   app: {
-    title: 'Redux Auth',
-    description: 'Simple, secure authentication for React + Redux.',
+    title: 'Listingpass',
+    description: '...',
     head: {
-      titleTemplate: 'Redux Auth: %s',
+      titleTemplate: 'ListingPass: %s',
       meta: [
         { name: 'description', content: 'Simple, secure authentication for React + Redux.' },
         { charset: 'utf-8' },
-        { property: 'og:site_name', content: 'Redux Auth' },
-        { property: 'og:image', content: 'https://react-redux.herokuapp.com/logo.jpg' },
+        { property: 'og:site_name', content: 'ListingPass Auth' },
+        { property: 'og:image', content: 'https://listingpass.com/img/logonav.png' },
         { property: 'og:locale', content: 'en_US' },
-        { property: 'og:title', content: 'Redux Auth' },
-        { property: 'og:description', content: 'Simple, secure authentication for React + Redux.' },
+        { property: 'og:title', content: 'Listingpass Auth' },
+        { property: 'og:description', content: '...' },
         { property: 'og:card', content: 'summary' },
-        { property: 'og:site', content: '@lynndylanhurley' },
-        { property: 'og:creator', content: '@lynndylanhurley' },
+        { property: 'og:site', content: '@amatotech' },
+        { property: 'og:creator', content: '@mikeamato' },
         { property: 'og:image:width', content: '200' },
         { property: 'og:image:height', content: '200' }
       ]

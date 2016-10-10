@@ -1,0 +1,21 @@
+{
+  "name": "ListingpassAuth",
+  "description": "...",
+  "repository": "https://github.com/amatomike/listingpass-Auth",
+  "logo": "https://listingpass.com/img/logonav.png",
+  "keywords": ["listingpass"],
+  "env": {
+    "NODE_ENV": {
+      "description": "Disable debug + hot reload for production.",
+      "value": "production"
+    },
+    "NODE_PATH": {
+      "description": "The root for absolute import statements.",
+      "value": "./src"
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "description": "Allow webpack to run the build on deploy.",
+      "value": "false"
+    }
+  }
+}
